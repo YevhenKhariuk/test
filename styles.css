@@ -87,3 +87,88 @@
     width: 322px;
   }
 }
+
+/* cardlist */
+.shopping-list-cardlist {
+  padding-left: 0px;
+}
+
+.shopping-list-card {
+  height: 170px;
+  max-width: 335px;
+  list-style: none;
+  display: flex;
+  align-items: flex-start;
+}
+
+.shopping-list-fullinfo {
+  margin-left: 14px;
+}
+
+.shopping-list-cardheaer {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+.shopping-list-cardtitle {
+  color: #111;
+  font-size: 16px;
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 18px;
+  letter-spacing: -0.64px;
+  text-transform: uppercase;
+  margin: 0px 0px 4px 0px;
+}
+
+.shopping-list-cardcategory {
+  margin: 0px;
+  color: #b4afaf;
+  font-size: 12px;
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 0.36px;
+}
+
+.shopping-list-carddescription {
+  max-width: 193px;
+  max-height: 68px;
+  overflow: hidden;
+  overflow-y: scroll;
+  margin: 0px 0px 14px 0px;
+  overflow: hidden;
+  color: #111;
+  text-overflow: ellipsis;
+  whitespace: nowrap;
+  font-size: 14px;
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: -0.56px;
+}
+
+.shopping-list-cardfooter {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+}
+
+.shopping-list-cardauthor {
+  margin: 0px;
+  color: #b4afaf;
+  font-size: 12px;
+  font-family: DM Sans;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: -0.48px;
+}
+
+.shopping-list-shops {
+  display: flex;
+}
