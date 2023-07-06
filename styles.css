@@ -170,5 +170,44 @@
 }
 
 .shopping-list-shops {
+  list-style: none;
   display: flex;
+  align-items: flex-end;
+  gap: 8px;
+}
+
+.shopping-list-shopsicon1 {
+  width: 32px;
+  height: 11px;
+  background-image: url(/img/shoplist/book1-mob.png);
+
+  @media (min-width: $tablet) {
+    background-image: url(/img/shoplist/book1-tab.png);
+    width: 48px;
+    height: 15px;
+  }
+}
+
+.shopping-list-shopsicon2 {
+  width: 16px;
+  height: 16px;
+  background-image: url(/img/shoplist/book2-mob.png);
+  border-radius: 28px;
+  @media (min-width: $tablet) {
+    background-image: url(/img/shoplist/book1-tab.png);
+    width: 28px;
+    height: 27px;
+  }
+}
+
+.shopping-list-shopsicon3 {
+  width: 16px;
+  height: 16px;
+  background-image: url(/img/shoplist/book3-mob.png);
+  border-radius: 28px;
+  @media (min-width: $tablet) {
+    background-image: url(/img/shoplist/book1-tab.png);
+    width: 32px;
+    height: 30px;
+  }
 }
